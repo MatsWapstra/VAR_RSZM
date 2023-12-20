@@ -1,5 +1,10 @@
+#It could be that the HDGCvar still needs to be installed if that is the case run this first
+# install.packages("devtools")
+#devtools::install_github("Marga8/HDGCvar")
+#Now it should work (if you have igraph)
 library(HDGCvar)
 library(igraph)
+
 # Load data for a station you wish to choose
 #station_data <- read.csv("C:/path")
 
